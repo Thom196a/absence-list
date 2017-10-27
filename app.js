@@ -8,6 +8,8 @@
         $http.get("data.json")
             .success(function (data) {
                 $scope.name = data.array;
+            
+            console.log($scope.name);
             })
     });
 })();
